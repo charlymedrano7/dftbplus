@@ -3365,7 +3365,7 @@ contains
 
     this%speciesAll = speciesAll
     this%nSpin = size(ints%hamiltonian(:,:), dim=2)
-    if (this%nSpin > 1) then
+    if (this%nSpin > 1 .and. this%iCall == 1) then
       call qm2ud(q0)
     end if
 
