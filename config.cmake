@@ -33,7 +33,7 @@ option(WITH_TBLITE "Whether xTB support should be included via tblite." FALSE)
 
 option(WITH_SOCKETS "Whether socket communication should be allowed for" FALSE)
 
-option(WITH_ARPACK "Whether the ARPACK library should be included (needed for TD-DFTB)" FALSE)
+option(WITH_ARPACK "Whether the ARPACK library should be included (needed for TD-DFTB)" TRUE)
 # Works only with non-MPI (serial) build, needed for Casida linear response
 
 option(WITH_SDFTD3 "Whether the s-dftd3 library should be included" FALSE)
