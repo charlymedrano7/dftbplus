@@ -4795,6 +4795,7 @@ contains
     deallocate(this%Ssqr)
     deallocate(this%Sinv)
     deallocate(this%H1)
+    deallocate(this%H0sqr)
     deallocate(this%RdotSprime)
     deallocate(this%qq)
     deallocate(this%deltaQ)
